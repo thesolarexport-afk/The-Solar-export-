@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>THE SOLAR EXPORT | Solar Installation, Fabrication & Solutions</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container" id="top">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark">☀</div>
+        <div class="brand-text">
+          <strong>THE SOLAR EXPORT</strong>
+          <span data-t="brandSub">Solar Solutions</span>
+        </div>
+      </div>
+      <div class="lang-group">
+        <button type="button" id="langHi" class="lang-btn active" onclick="setSolarLang('hi')">हिन्दी</button>
+        <button type="button" id="langEn" class="lang-btn" onclick="setSolarLang('en')">English</button>
+        <button type="button" id="langGu" class="lang-btn" onclick="setSolarLang('gu')">ગુજરાતી</button>
+      </div>
+    </header>
+
+    <section class="hero-card">
+      <div class="solar-moving-stage">
+        <div class="photon-beam p1"></div>
+        <div class="photon-beam p2"></div>
+        <div class="photon-beam p3"></div>
+        <div class="sun-orb-wrap">
+          <div class="sun-rays-ring"></div>
+          <div class="sun-core"></div>
+        </div>
+        <div class="solar-panel-array">
+          <div class="panel-cell"></div>
+          <div class="panel-cell"></div>
+          <div class="panel-cell"></div>
+          <div class="panel-cell"></div>
+          <div class="panel-cell"></div>
+          <div class="panel-cell"></div>
+          <div class="panel-cell"></div>
+          <div class="panel-cell"></div>
+        </div>
+        <div class="solar-stage-caption">☀️ Solar Energy Conversion Live</div>
+      </div>
+
+      <div class="hero-pill" data-t="tagline">स्वच्छ ऊर्जा • उज्ज्वल भविष्य</div>
+      <h1>THE SOLAR EXPORT</h1>
+      <p data-t="heroDesc">भरोसेमंद सोलर इंस्टॉलेशन, फैब्रिकेशन और सोलर सॉल्यूशन</p>
+      <div class="hero-cta-row">
+        <button type="button" class="btn btn-amber" onclick="openSolarModal()">
+          <span>📝</span> <span data-t="btnEnquiry">Enquiry करें</span>
+        </button>
+        <a class="btn btn-emerald" href="https://api.whatsapp.com/send?phone=918160634197&text=Hello%20THE%20SOLAR%20EXPORT%2C%20mujhe%20solar%20lagvana%20hai%20jankari%20chahiye." target="_blank" rel="noopener">
+          <span>💬</span> <span data-t="btnWhatsapp">WhatsApp</span>
+        </a>
+      </div>
+    </section>
+
+    <div class="section-label" data-t="secServices">Explore Services &amp; Tools</div>
+
+    <section class="service-grid">
+      <a class="service-tile" href="calculator.html">
+        <div class="tile-icon">🧮</div>
+        <div>
+          <h3 data-t="btnCalc">सोलर कैलकुलेशन</h3>
+          <p data-t="calcDesc">बिल या kW से सिस्टम व बिजली उत्पादन जानें</p>
+        </div>
+      </a>
+
+      <a class="service-tile" href="subsidy.html">
+        <div class="tile-icon">🏛️</div>
+        <div>
+          <h3 data-t="btnSubsidy">सरकारी सब्सिडी</h3>
+          <p data-t="subsidyDesc">Gujarat &amp; PM Surya Ghar सब्सिडी जानकारी</p>
+        </div>
+      </a>
+
+      <a class="service-tile" href="material.html">
+        <div class="tile-icon">📦</div>
+        <div>
+          <h3 data-t="btnMaterial">सोलर मटेरियल</h3>
+          <p data-t="materialDesc">GI Pipe, 720W Panel, Inverter, Wire</p>
+        </div>
+      </a>
+
+      <a class="service-tile" href="washing.html">
+        <div class="tile-icon">💧</div>
+        <div>
+          <h3 data-t="btnWashing">Solar Washing Service</h3>
+          <p data-t="washingDesc">पैनल वॉशिंग रेट व स्प्रिंकलर सिस्टम</p>
+        </div>
+      </a>
+
+      <a class="service-tile" href="panels.html">
+        <div class="tile-icon">🔆</div>
+        <div>
+          <h3 data-t="btnPanels">Solar Panel Details</h3>
+          <p data-t="panelsDesc">Waaree &amp; Adani 540W – 730W स्पेक्स</p>
+        </div>
+      </a>
+
+      <a class="service-tile" href="faq.html">
+        <div class="tile-icon">❓</div>
+        <div>
+          <h3 data-t="btnFaq">Solar FAQ</h3>
+          <p data-t="faqDesc">सोलर से जुड़े 16 आसान सवाल और जवाब</p>
+        </div>
+      </a>
+    </section>
+
+    <div class="section-label" data-t="secSites">हमारी पूरी की गई साइट्स (Completed Sites)</div>
+    <section class="sites-grid">
+      <div class="site-card">
+        <div class="site-photo-wrap">
+          <img id="siteImg1" src="images/site-1.jpg" alt="Rooftop Solar Installation" onerror="this.style.display='none';" />
+          <span style="font-size:32px;">☀️</span>
+          <strong style="font-size:13px; margin-top:4px;">Rooftop Solar Installation</strong>
+          <small style="font-size:11px; color:#cbd5e1;" data-t="photoHint">Photo baad mein add karein</small>
+          <span class="site-badge">RESIDENTIAL</span>
+        </div>
+        <div class="site-body">
+          <div>
+            <h3>Rooftop Solar Installation</h3>
+            <p>High-Efficiency Solar Panels • Heavy GI Structure</p>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:6px; flex-shrink:0;">
+            <button type="button" class="site-enq-btn" onclick="openSolarModal()" data-t="enquireShort">Enquire</button>
+            <label class="site-enq-btn" style="background:#eef2f5; color:#141c24; cursor:pointer;">
+              📷 <span data-t="photoBtn">Photo</span>
+              <input type="file" accept="image/*" style="display:none;" onchange="previewCardPhoto(this, 'siteImg1')" />
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-card">
+        <div class="site-photo-wrap">
+          <img id="siteImg2" src="images/site-2.jpg" alt="Commercial Solar Project" onerror="this.style.display='none';" />
+          <span style="font-size:32px;">☀️</span>
+          <strong style="font-size:13px; margin-top:4px;">Commercial Solar Project</strong>
+          <small style="font-size:11px; color:#cbd5e1;" data-t="photoHint">Photo baad mein add karein</small>
+          <span class="site-badge">COMMERCIAL</span>
+        </div>
+        <div class="site-body">
+          <div>
+            <h3>Commercial Solar Project</h3>
+            <p>Industrial Mounting Structure • On-Grid Solar System</p>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:6px; flex-shrink:0;">
+            <button type="button" class="site-enq-btn" onclick="openSolarModal()" data-t="enquireShort">Enquire</button>
+            <label class="site-enq-btn" style="background:#eef2f5; color:#141c24; cursor:pointer;">
+              📷 <span data-t="photoBtn">Photo</span>
+              <input type="file" accept="image/*" style="display:none;" onchange="previewCardPhoto(this, 'siteImg2')" />
+            </label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-label">Follow Us (Social Media)</div>
+    <section class="social-grid">
+      <a class="social-card social-insta" href="https://instagram.com/" target="_blank" rel="noopener">
+        <span style="font-size:24px;">📸</span>
+        <div>
+          <strong>Instagram</strong>
+          <span>Reels &amp; Site Photos</span>
+        </div>
+      </a>
+
+      <a class="social-card social-yt" href="https://youtube.com/" target="_blank" rel="noopener">
+        <span style="font-size:24px;">▶️</span>
+        <div>
+          <strong>YouTube</strong>
+          <span>Solar Videos &amp; Demos</span>
+        </div>
+      </a>
+    </section>
+
+    <section class="info-card">
+      <div style="display:flex; align-items:center; justify-content:space-between; gap:12px;">
+        <div>
+          <h2 style="font-size:16px; font-weight:800; margin-bottom:4px;" data-t="officeHiddenTitle">Office Location: Abhi Hidden Hai</h2>
+          <p style="font-size:13px; color:#5b6572; line-height:1.4;" data-t="officeHiddenDesc">Jab future mein office lagana ho toh yahan se on/off test karein</p>
+        </div>
+        <button type="button" class="site-enq-btn" onclick="toggleOfficePreview()">Show Preview</button>
+      </div>
+      <div id="officeDetailsBox" style="display:none; margin-top:12px; padding-top:12px; border-top:1px solid #e2e5e9;">
+        <div class="sub">THE SOLAR EXPORT Office</div>
+        <p style="margin-bottom:12px;">Abhi office location hidden rakhi gayi hai. Future mein yahan address aur map link add kiya ja sakta hai.</p>
+      </div>
+    </section>
+
+    <section class="page-bottom-card">
+      <h2 data-t="aboutTitle">हमारे बारे में</h2>
+      <div class="bottom-sub" data-t="aboutSub">बेहतर सोलर समाधान और मजबूत फैब्रिकेशन</div>
+      <p data-t="aboutDesc">THE SOLAR EXPORT घरों, दुकानों, फैक्ट्रियों और कमर्शियल प्रोजेक्ट्स के लिए उच्च गुणवत्ता वाले सोलर पैनल इंस्टॉलेशन, GI स्ट्रक्चर फैब्रिकेशन और सोलर मेंटेनेंस सेवाएं प्रदान करता है।</p>
+    </section>
+
+    <footer class="footer">
+      <strong>THE SOLAR EXPORT</strong><br />
+      📞 +91 81606 34197 | © 2026 THE SOLAR EXPORT
+    </footer>
+
+    <div class="floating-bar">
+      <button type="button" class="btn btn-amber" onclick="openSolarModal()">📝 <span data-t="btnEnquiry">Enquiry</span></button>
+      <a class="btn btn-emerald" href="https://api.whatsapp.com/send?phone=918160634197&text=Hello%20THE%20SOLAR%20EXPORT%2C%20mujhe%20solar%20lagvana%20hai%20jankari%20chahiye." target="_blank" rel="noopener">💬 <span data-t="btnWhatsapp">WhatsApp</span></a>
+    </div>
+  </div>
+
+  <div id="enquiryModal" class="modal-backdrop">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div>
+          <strong style="font-size:17px; color:#e07a16;">THE SOLAR EXPORT</strong>
+          <div style="font-size:12px; color:#5b6572;">Solar Installation Enquiry</div>
+        </div>
+        <button type="button" class="back-btn" onclick="closeSolarModal()">✕ Close</button>
+      </div>
+
+      <form id="mainEnquiryForm" onsubmit="sendEnquiryWhatsApp(event)">
+        <div class="field">
+          <label><span data-t="lblName">Customer Name</span> <span class="req">*</span></label>
+          <input id="enqName" class="input" type="text" placeholder="अपना नाम लिखें" required />
+        </div>
+        <div class="field">
+          <label><span data-t="lblMobile">Mobile Number</span> <span class="req">*</span></label>
+          <input id="enqMobile" class="input" type="tel" maxlength="10" placeholder="10 अंकों का मोबाइल नंबर" required />
+        </div>
+        <div class="field">
+          <label><span data-t="lblArea">Area / जगह</span> <span class="req">*</span></label>
+          <input id="enqArea" class="input" type="text" placeholder="अपना एरिया लिखें" required />
+        </div>
+        <div class="field">
+          <label><span data-t="lblAddress">Full Address</span> <span class="req">*</span></label>
+          <textarea id="enqAddress" class="textarea" placeholder="पूरा पता लिखें" required></textarea>
+        </div>
+        <div class="field">
+          <label><span data-t="lblBill">Current Electricity Bill</span> <span class="req">*</span></label>
+          <input id="enqBill" class="input" type="number" placeholder="₹ महीने का लगभग बिल" required />
+        </div>
+        <div class="field">
+          <label><span data-t="lblLocation">Current Location (Optional)</span></label>
+          <input id="enqLocation" class="input" type="text" placeholder="Landmark या Google Maps लिंक" />
+        </div>
+        <button type="submit" class="btn btn-emerald btn-full">💬 <span data-t="btnSendWa">WhatsApp पर Enquiry भेजें</span></button>
+      </form>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
